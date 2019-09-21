@@ -22,7 +22,7 @@ public:
 	double AverageRate();
 	void PrintRate();
 	void PrintInfo();
-	Book operator>();
+	Book operator>(Book* arr);
 };
 
 
