@@ -50,13 +50,13 @@ void Book::PrintInfo(){
 	cout<<authorLast<<","<<authorFirst<<":"<<bookName<<","<<year<<","<<AverageRate()<<endl;
 }
 
-Book Book::operator>(Book* arr){
+void Book::operator>(Book* arr){
 	Book high=arr[0];
 	for(int i=1;i<5;i++){
 		if(arr[i].AverageRate()>high.AverageRate()){
 			high=arr[i];
 		}
 	}
-	return high;
+	high.PrintInfo();
 }
 
