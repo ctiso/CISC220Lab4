@@ -19,7 +19,7 @@ int main(){
 
 	Book Book1("Chris","Tiso","How to Code in C++",2019,arr1);
 	Book Book2("Bobby","Stahl","How to get your PhD",2014,arr2);
-	Book Book5("Bill","Gates","How to rule the world",1999,arr5);
+	Book Book5("Bill","Gates","How to get rich ",1999,arr5);
 	Book Book4("Steve","Jobs","From nothing to something",1995,arr4);
 	Book Book3("Mike","Wazowski","How to Get a job at Monsters Inc",1998,arr3);
 
