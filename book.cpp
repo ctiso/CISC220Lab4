@@ -28,6 +28,13 @@ Book::Book(std::string first,std::string last,std::string book,int num,int* arr)
 	ratings=arr;
 
 }
+Book::Book(){
+	authorFirst;
+	authorLast;
+	bookName;
+	year;
+	ratings;
+}
 Book::~Book(){
 	delete ratings;
 }

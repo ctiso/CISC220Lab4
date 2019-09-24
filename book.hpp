@@ -19,6 +19,7 @@ public:
 	Book(std::string first,std::string last,std::string book,int num);
 	Book(std::string first,std::string last,std::string book,int num,int* arr);
 	~Book();
+	Book();
 	double AverageRate();
 	void PrintRate();
 	void PrintInfo();

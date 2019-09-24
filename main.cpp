@@ -27,7 +27,9 @@ int main(){
 	Book1>arr;
 	Book1.PrintInfo();
 
-	Book arr23[2]={Book3,Book4};
+	Book* arr23=new Book[2];
+	arr23[0]=Book3;
+	arr23[1]=Book4;
 	for(int i=0;i<2;i++){
 		arr23[i].PrintInfo();
 	}
